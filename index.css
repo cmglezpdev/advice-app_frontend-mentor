@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: hsl(217, 19%, 24%);
+    box-shadow:  hsl(221, 24%, 13%) 4px 4px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.card__title {
+    text-align: center;
+    margin: 30px;
+    font-size: 14px;
+    color: hsl(150, 100%, 66%);
+}
+
+.card__phrase {
+    text-align: center;
+    padding: 0 10px;
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+.divider {
+    margin: 30px 0 0px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    z-index: 1000;
+    position: relative; 
+    top: 34px;
+}
+
+.icon_img{
+    width: 23px;
+    height: 23px;
+    margin: 14px 14px;
+}
