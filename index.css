@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: hsl(218, 23%, 16%);
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
     width: 500px;
     height: auto;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     padding: 10px;
     background-color: hsl(217, 19%, 24%);
     box-shadow:  hsl(221, 24%, 13%) 4px 4px 8px;
@@ -64,3 +74,4 @@ body {
     height: 23px;
     margin: 9px 9px;
 }
+
