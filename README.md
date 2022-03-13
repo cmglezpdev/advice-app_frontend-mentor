@@ -26,8 +26,7 @@ When loading the page, a phrase will be displayed as the result of an API query,
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Advice App API](https://advice-app-api.netlify.app)
 
 ## My process
 
